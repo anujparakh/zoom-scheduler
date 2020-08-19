@@ -1,0 +1,53 @@
+{
+    "classes": [
+        {
+            "name": "Modern Physics",
+            "code": "PHYS 222",
+            "days": ["Monday", "Wednesday"],
+            "time": "7:20 PM",
+            "durationMinutes": 75,
+            "link": "https://tamu.zoom.us/j/96392504929?pwd=cUFzUGhhNDFLeXNVWU1rNkFXVXlNZz09"
+        },
+        {
+            "name": "Computer and Network Security",
+            "code": "CSCE 465",
+            "days": ["Tuesday", "Thursday"],
+            "time": "11:30 AM",
+            "durationMinutes": 75,
+            "link": "https://tamu.zoom.us/j/95493354885?pwd=eWpNaDlYaEJFekdkOUU0NFBLaFZXZz09"
+        },
+        {
+            "name": "Computer System Design (Senior Design)",
+            "code": "CSCE 483",
+            "days": ["Tuesday", "Thursday"],
+            "time": "1:00 PM",
+            "durationMinutes": 180,
+            "link": "https://tamu.zoom.us/j/96251229542?pwd=S080bkFKQkNCYzlQenViYnlBUUNKQT09#success"
+        },
+        {
+            "name": "Operating Systems",
+            "code": "CSCE 410",
+            "days": ["Monday", "Wednesday", "Friday"],
+            "time": "2:55 PM",
+            "durationMinutes": 50,
+            "link": "https://tamu.zoom.us/j/709083349"
+        },
+        {
+            "name": "Statistics",
+            "code": "STAT 211",
+            "days": ["Monday", "Wednesday", "Friday"],
+            "time": "1:35 PM",
+            "durationMinutes": 50,
+            "link": "https://tamu.zoom.us/j/95667019589?pwd=dVBSeCtxMFFaSnFoWG4vM2xBU045UT09"
+        },
+        {
+            "name": "Design and Analysis of Algorithms",
+            "code": "CSCE 411",
+            "days": ["Monday", "Wednesday", "Friday"],
+            "time": "10:30 AM",
+            "durationMinutes": 50,
+            "link": "",
+            "cmd": "open  /System/Applications/Notes.app"
+        }
+    ]
+}
