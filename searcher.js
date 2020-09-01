@@ -1,4 +1,5 @@
 const moment = require('moment')
+const alert = require('alert')
 const classes = require('./data.json').classes;
 const { execSync, exec } = require('child_process');
 
@@ -15,6 +16,8 @@ function openClass(theClass) {
         execSync('open -a /Applications/zoom.us.app ' + theClass.link)
     if (theClass.cmd)
         execSync(theClass.cmd)
+    // show an alert
+    alert('Time for ' + theClass.name)
 }
 
 function searchAndOpenClass()

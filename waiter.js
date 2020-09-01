@@ -18,19 +18,21 @@ function setSchedulerForClasses()
         }
         console.log('Days: ' + aClass.days)
         // Get the time
-        const classTime = moment(aClass.time, "hh:mm A").subtract(2, 'minutes')
-        console.log('Class is at: ' + classTime.add(2, 'minutes').format('hh:mm A'))
+        const classTime = moment(aClass.time, "hh:mm A")
+        console.log('Class is at: ' + classTime.format('hh:mm A'))
 
         // Set the schedule
         var rule = new schedule.RecurrenceRule();
         rule.dayOfWeek = days
-        rule.hour = parseInt(classTime.format('HH'))
-        rule.minute = parseInt(classTime.format('mm'))
+        rule.hour = parseInt(classTime.subtract(2, 'minutes').format('HH'))
+        rule.minute = parseInt(classTime.subtract(2, 'minutes').format('mm'))
 
         var job = schedule.scheduleJob(rule, searchClassFunction)
     }
 
     console.log('\nScheduling Done!\n')
+
+    searchClassFunction()
 }
 
 setSchedulerForClasses()

@@ -22,7 +22,7 @@
             "days": ["Tuesday", "Thursday"],
             "time": "1:00 PM",
             "durationMinutes": 180,
-            "link": "https://tamu.zoom.us/j/96251229542?pwd=S080bkFKQkNCYzlQenViYnlBUUNKQT09#success"
+            "link": "https://tamu.zoom.us/j/96251229542?pwd=S080bkFKQkNCYzlQenViYnlBUUNKQT09"
         },
         {
             "name": "Operating Systems",
@@ -44,7 +44,7 @@
             "name": "Design and Analysis of Algorithms",
             "code": "CSCE 411",
             "days": ["Monday", "Wednesday", "Friday"],
-            "time": "10:30 AM",
+            "time": "12:00 PM",
             "durationMinutes": 50,
             "link": "",
             "cmd": "open  /System/Applications/Notes.app"
