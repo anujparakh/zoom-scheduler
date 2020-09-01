@@ -34,11 +34,12 @@ function setSchedulerForClasses()
         //
         // Set the schedule using node-cron
         //
-        cronString = classTime.subtract(2, 'minutes').format('mm') + ' '
+        classTime.subtract(3, 'minutes')
+        cronString = classTime.format('mm') + ' '
             + classTime.format('HH') + ' '
             + '* * ' + days
         var job = new CronJob(cronString, searchClassFunction, null, true);
-        console.log(job.nextDates().format('llll'))
+        // console.log(job.nextDates().format('llll'))
     }
 
     // console.log('\nScheduling Done! (using node-scheduler) \n')
