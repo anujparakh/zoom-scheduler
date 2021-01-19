@@ -1,53 +1,60 @@
 {
     "classes": [
         {
-            "name": "Modern Physics",
-            "code": "PHYS 222",
+            "name": "Engineering Ethics Lecture",
+            "code": "PHIL 482",
+            "days": ["Tuesday"],
+            "time": "9:45 AM",
+            "durationMinutes": 75,
+            "link": "https://tamu.zoom.us/j/91325126710?pwd=ZXY4WTB0UThyeGFWa0FmVXhiclJIZz09"
+        },
+        {
+            "name": "Engineering Ethics Recitation",
+            "code": "PHIL 482",
+            "days": ["Friday"],
+            "time": "10:40 AM",
+            "durationMinutes": 110,
+            "link": ""
+        },
+        {
+            "name": "Networks and Distributed Processes",
+            "code": "CSCE 463",
+            "days": ["Tuesday", "Thursday"],
+            "time": "1:30 PM",
+            "durationMinutes": 75,
+            "link": "https://tamu.zoom.us/j/98594864117?pwd=bHErT2FRZHdDZC9YZnZBNFRvMDFlUT09#success"
+        },
+        {
+            "name": "Software Engineering Lecture",
+            "code": "CSCE 431",
+            "days": ["Tuesday", "Thursday"],
+            "time": "5:00 PM",
+            "durationMinutes": 75,
+            "link": ""
+        },
+        {
+            "name": "Software Engineering Lab",
+            "code": "CSCE 431",
             "days": ["Monday", "Wednesday"],
-            "time": "7:20 PM",
-            "durationMinutes": 75,
-            "link": "https://tamu.zoom.us/j/96392504929?pwd=cUFzUGhhNDFLeXNVWU1rNkFXVXlNZz09"
-        },
-        {
-            "name": "Computer and Network Security",
-            "code": "CSCE 465",
-            "days": ["Tuesday", "Thursday"],
-            "time": "11:30 AM",
-            "durationMinutes": 75,
-            "link": "https://tamu.zoom.us/j/95493354885?pwd=eWpNaDlYaEJFekdkOUU0NFBLaFZXZz09"
-        },
-        {
-            "name": "Computer System Design (Senior Design)",
-            "code": "CSCE 483",
-            "days": ["Tuesday", "Thursday"],
-            "time": "1:00 PM",
-            "durationMinutes": 180,
-            "link": "https://tamu.zoom.us/j/96251229542?pwd=S080bkFKQkNCYzlQenViYnlBUUNKQT09"
-        },
-        {
-            "name": "Operating Systems",
-            "code": "CSCE 410",
-            "days": ["Monday", "Wednesday", "Friday"],
-            "time": "2:55 PM",
-            "durationMinutes": 50,
-            "link": "https://tamu.zoom.us/j/709083349"
-        },
-        {
-            "name": "Statistics",
-            "code": "STAT 211",
-            "days": ["Monday", "Wednesday", "Friday"],
             "time": "1:35 PM",
             "durationMinutes": 50,
-            "link": "https://tamu.zoom.us/j/95667019589?pwd=dVBSeCtxMFFaSnFoWG4vM2xBU045UT09"
+            "link": ""
         },
         {
-            "name": "Design and Analysis of Algorithms",
-            "code": "CSCE 411",
-            "days": ["Monday", "Wednesday", "Friday"],
-            "time": "12:00 PM",
+            "name": "Competitive Programming Lecture",
+            "code": "CSCE 430",
+            "days": ["Monday", "Wednesday"],
+            "time": "4:15 PM",
             "durationMinutes": 50,
-            "link": "",
-            "cmd": "open  /System/Applications/Notes.app"
+            "link": ""
+        },
+        {
+            "name": "Competitive Programming Lab",
+            "code": "CSCE 430",
+            "days": ["Friday"],
+            "time": "2:00 PM",
+            "durationMinutes": 150,
+            "link": ""
         }
     ]
 }
