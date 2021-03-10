@@ -6,7 +6,7 @@
             "days": ["Tuesday"],
             "time": "9:45 AM",
             "durationMinutes": 75,
-            "link": "https://tamu.zoom.us/j/91325126710?pwd=ZXY4WTB0UThyeGFWa0FmVXhiclJIZz09"
+            "link": "https://tamu.zoom.us/j/91325126710?pwd=ZXY4WTB0UThyeGFWa0FmVXhiclJIZz09&uname=Anuj+Parakh"
         },
         {
             "name": "Engineering Ethics Recitation",
@@ -14,7 +14,7 @@
             "days": ["Friday"],
             "time": "10:40 AM",
             "durationMinutes": 110,
-            "link": ""
+            "link": "https://tamu.zoom.us/j/98470299543?pwd=eWhaeU9iVHFtUkJHT1RxRWVlL0tZUT09&uname=Anuj+Parakh"
         },
         {
             "name": "Networks and Distributed Processes",
@@ -22,7 +22,7 @@
             "days": ["Tuesday", "Thursday"],
             "time": "1:30 PM",
             "durationMinutes": 75,
-            "link": "https://tamu.zoom.us/j/98594864117?pwd=bHErT2FRZHdDZC9YZnZBNFRvMDFlUT09#success"
+            "link": "https://tamu.zoom.us/j/98594864117?pwd=bHErT2FRZHdDZC9YZnZBNFRvMDFlUT09&uname=Anuj+Parakh"
         },
         {
             "name": "Software Engineering Lecture",
@@ -30,7 +30,7 @@
             "days": ["Tuesday", "Thursday"],
             "time": "5:00 PM",
             "durationMinutes": 75,
-            "link": ""
+            "link": "https://tamu.zoom.us/j/92684291929?pwd=RnVCNFFENE5jL1FCSVNuak8xdTVoUT09&uname=Anuj+Parakh"
         },
         {
             "name": "Software Engineering Lab",
@@ -38,7 +38,7 @@
             "days": ["Monday", "Wednesday"],
             "time": "1:35 PM",
             "durationMinutes": 50,
-            "link": ""
+            "link": "https://tamu.zoom.us/j/96691148581?pwd=aXlFRkVhVWFUQ3orYzVCYkpOZHFEdz09&uname=Anuj+Parakh"
         },
         {
             "name": "Competitive Programming Lecture",
@@ -46,7 +46,7 @@
             "days": ["Monday", "Wednesday"],
             "time": "4:15 PM",
             "durationMinutes": 50,
-            "link": ""
+            "link": "https://tamu.zoom.us/j/97188067901?uname=Anuj+Parakh"
         },
         {
             "name": "Competitive Programming Lab",
@@ -54,7 +54,7 @@
             "days": ["Friday"],
             "time": "2:00 PM",
             "durationMinutes": 150,
-            "link": ""
+            "link": "https://tamu.zoom.us/j/96468285224?uname=Anuj+Parakh"
         }
     ]
 }

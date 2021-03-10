@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ClassView" customModule="Zoom_Scheduler" customModuleProvider="target">
+            <connections>
+                <outlet property="centerHeightConstraint" destination="idP-go-q96" id="U4k-nU-ekH"/>
+                <outlet property="classLabel" destination="9FI-D2-sxB" id="jgx-oo-Vng"/>
+                <outlet property="linkButton" destination="e8b-P7-7js" id="6g2-tn-fLC"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="296" height="221"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9FI-D2-sxB">
+                    <rect key="frame" x="113" y="114" width="71" height="33"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="zHu-aa-V4S">
+                        <font key="font" size="28" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e8b-P7-7js">
+                    <rect key="frame" x="98" y="62" width="100" height="32"/>
+                    <buttonCell key="cell" type="push" title="Copy Link" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="dP6-l5-KU5">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <color key="contentTintColor" red="0.40980914060000001" green="0.93836558889999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="linkButtonClicked:" target="-2" id="2fW-dF-hEc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="e8b-P7-7js" firstAttribute="top" secondItem="9FI-D2-sxB" secondAttribute="bottom" constant="24" id="5J9-jt-yTJ"/>
+                <constraint firstItem="e8b-P7-7js" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="DYT-MR-9mx"/>
+                <constraint firstItem="9FI-D2-sxB" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="H0d-OP-2hP"/>
+                <constraint firstItem="9FI-D2-sxB" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" constant="-20" id="idP-go-q96"/>
+            </constraints>
+            <point key="canvasLocation" x="-228" y="128.5"/>
+        </customView>
+    </objects>
+</document>

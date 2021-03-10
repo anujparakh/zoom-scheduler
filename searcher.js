@@ -3,7 +3,7 @@ const alert = require('alert')
 const classes = require('./data.json').classes;
 const { execSync, exec } = require('child_process');
 
-const folderURL = "Documents/College Documents/Seventh Semester/"
+const folderURL = "Documents/College Documents/Eighth Semester/"
 
 function printTime(toPrint) {
     console.log(toPrint)
@@ -11,7 +11,8 @@ function printTime(toPrint) {
 
 function openClass(theClass) {
     console.log('Time for ' + theClass.name)
-    execSync('cd;open "' + folderURL + theClass.code +'"')
+    if (theClass.openFolder)
+        execSync('cd;open "' + folderURL + theClass.code +'"')
     if (theClass.link)
         execSync('open -a /Applications/zoom.us.app ' + theClass.link)
     if (theClass.cmd)
